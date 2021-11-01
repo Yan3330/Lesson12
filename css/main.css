@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(238, 235, 235);
+    background:
+    url('../img/circle_PNG84.png') no-repeat,
+    url('../img/pngwing.com.png') no-repeat;
+    background-size: 300px, 380px, 100%;
+    background-position: bottom -150px left -70px, top -120px right -100px;
+}
+
+.container{
+    border-radius: 20%;
+    width: 100%;
+    max-width: 900px;
+    height: 90vh; 
+    margin: 0 auto;
+    display: flex;
+}
+
+.left__block{
+    background: lightgray;
+    padding: 2rem 1rem;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left__title{
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.social__icon{
+    color: #fff;
+    display: inline-block;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 1rem 1rem;
+}
+
+p{
+    margin: 1rem 0;
+    max-width: 300px;
+    width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background: #fff;
+    border: none;
+    width: 300px;
+    padding: 1rem 0.75rem;
+    margin: 0.5rem 0;
+}
+
+.help{
+    color: inherit;
+    margin: 1rem 1rem;
+    padding-bottom: 7px;
+    border-bottom: 1px dashed #fff;
+}
+
+.left__btn{
+    background: #3AB19B;
+    border: none;
+    border-radius: 50px;
+    padding: 0.85rem 2.75rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.right__block{
+    background: rgb(29, 223, 174);
+    padding: 2rem 1rem;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__btn{
+    background: #3AB19B;
+    border-color: #fff;
+    border-radius: 50px;
+    padding: 0.85rem 2.75rem;
+    margin: 2rem 0;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #fff;
+}
